@@ -1,3 +1,6 @@
+// Usage is really simple:
+// load https://github.com/redspider/logglycom/raw/master/toys/simplessh.js
+// search sshd "Failed password" | simplessh
 loggly.bark.external_command({
     simplessh : {
         run: function ( args, stdin, context ) {
